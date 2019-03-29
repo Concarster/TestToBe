@@ -1,12 +1,21 @@
 #include "EPch.h"
 #include "Engine.h"
 
-
-Engine::Engine()
+namespace test
 {
-}
+    Engine::Engine()
+    {
+    }
 
+    Engine::~Engine()
+    {
+    }
 
-Engine::~Engine()
-{
+    void Engine::Begin()
+    {
+        while (true)
+        {
+
+        }
+    }
 }

@@ -1,8 +1,18 @@
 #pragma once
-class Engine
-{
-public:
-    Engine();
-    ~Engine();
-};
+#include "Def.h"
 
+namespace test
+{
+    class TEST_API Engine
+    {
+    private:
+
+    public:
+        Engine();
+        virtual ~Engine();
+
+        void Begin();
+
+    private:
+    };
+}
