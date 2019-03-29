@@ -15,4 +15,7 @@ namespace test
 
     private:
     };
+
+    /*For Clients */
+    Engine* Generate();
 }

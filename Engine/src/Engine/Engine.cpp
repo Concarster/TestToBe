@@ -13,6 +13,8 @@ namespace test
 
     void Engine::Begin()
     {
+        std::cout << "\n  Game Begin! " << std::endl;
+
         while (true)
         {
 

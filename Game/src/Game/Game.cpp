@@ -9,9 +9,7 @@ Game::~Game()
 {
 }
 
-int main(int argc, char** argv)
+test::Engine* test::Generate()
 {
-    Game* game = new Game();
-    game->Begin();
-    delete game;
+    return new Game();
 }
